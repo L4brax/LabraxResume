@@ -1,9 +1,93 @@
 body {
-  background-color: #954C00;
+  background-image: url("../img/wild_oliva.png");
+  color: #DEDEDE;
+  font-family: Lucida Console;
 }
 
-#main {
-  font-size: 2.5em;
-  font-family: Lucida Console;
+#header {
   color: white;
+  padding-top: 1%;
+  margin-bottom: 5%;
+}
+
+#main-1 {
+  display: inline;
+  font-size: 3em;
+}
+
+#main-2 {
+  letter-spacing: 2px;
+  display: none;
+  font-size: 1em;
+  margin-top: 15%;
+}
+
+#main-3 {
+  display: none;
+  font-size: 1em;
+}
+
+.icons {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.icon1 {
+  width : 60px;
+}
+
+.icon2 {
+  width : 55px;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-style: solid;
+    border-width: 4px 4px 0px 4px;
+    border-color: #DEDEDE;
+}
+
+.mainImg{
+  width: 20%;
+}
+
+.about{
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.bar {
+  border-right-style: solid;
+  border-width: 2px;
+  width: 100%;
+  border-color: #DEDEDE;
+}
+
+.label {
+  float: left;
+  text-align: right;
+}
+
+.progress-bars{
+  float : right;
+}
+
+.w3-light-grey {
+  background-color: #DEDEDE;
+}
+
+.btn {
+  color: #DEDEDE;
+  padding: 10px 20px 10px 20px;
+  border: solid #DEDEDE 4px;
+  background-color:transparent;
+  cursor:pointer;
+  margin-top: 4px;
+}
+.btn:hover {
+  background: #DEDEDE;
+  color : #000;
 }
