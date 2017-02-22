@@ -15,7 +15,7 @@
     <div class="">
      <button id="me" class="btn w3-ripple" onclick="showMe()">Antoine Hess</button>
      <button id="about" class="btn w3-ripple" onclick="showAbout()">About Me</button>
-     <button id="skills" class="btn w3-ripple" onclick="showSkills()">Skills</button>
+     <button id="skills" class="btn w3-ripple" onclick="showSkills();move();">Skills</button>
     </div>
   </div>
   <div id='main-1'>
@@ -48,27 +48,47 @@
     </div>
   </div>
   <div id='main-3' class="w3-display-middle">
-    <div class="label">
-      <p>Javascript Node/ES6 :&nbsp;</p>
-      <p>Express.js :&nbsp;</p>
-      <p>Java J2EE Spring :&nbsp;</p>
-      <p>HTML/CSS :&nbsp;</p>
-      <p>Oracle PL/SQL :&nbsp;</p>
-      <p>PHP Symfony :&nbsp;</p>
-      <p>Git :&nbsp;</p>
-      <p>Cobol :&nbsp;</p>
+    <div class="skills-left">
+      <div class="label">
+        <p>Java J2EE Spring :&nbsp;</p>
+        <p>Javascript Node/ES6 :&nbsp;</p>
+        <p>Express.js :&nbsp;</p>
+        <p>PHP Symfony :&nbsp;</p>
+        <p>HTML5/CSS3 :&nbsp;</p>
+        <p>AngularJS :&nbsp;</p>
+        <p>Angular2 :&nbsp;</p>
+      </div>
+      <div class="progress-bars">
+        <div class="bar"><p id="myBar1" class="w3-container w3-light-grey inner-bar" style="width:75%;">20%</p></div>
+        <div class="bar"><p id="myBar2" class="w3-container w3-light-grey inner-bar" style="width:85%;">20%</p></div>
+        <div class="bar"><p id="myBar3" class="w3-container w3-light-grey inner-bar" style="width:66%;">20%</p></div>
+        <div class="bar"><p id="myBar4" class="w3-container w3-light-grey inner-bar" style="width:60%;">20%</p></div>
+        <div class="bar"><p id="myBar5" class="w3-container w3-light-grey inner-bar" style="width:50%;">20%</p></div>
+        <div class="bar"><p id="myBar6" class="w3-container w3-light-grey inner-bar" style="width:90%;">20%</p></div>
+        <div class="bar"><p id="myBar7" class="w3-container w3-light-grey inner-bar" style="width:50%;">20%</p></div>
+      </div>
     </div>
-
-    <div class="progress-bars">
-      <div class="bar"><p id="myBar1" class="w3-container w3-light-grey w3-center" style="width:75%;">20%</p></div>
-      <div class="bar"><p id="myBar2" class="w3-container w3-light-grey w3-center" style="width:85%">20%</p></div>
-      <div class="bar"><p id="myBar3" class="w3-container w3-light-grey w3-center" style="width:66%">20%</p></div>
-      <div class="bar"><p id="myBar4" class="w3-container w3-light-grey w3-center" style="width:60%">20%</p></div>
-      <div class="bar"><p id="myBar5" class="w3-container w3-light-grey w3-center" style="width:50%">20%</p></div>
-      <div class="bar"><p id="myBar6" class="w3-container w3-light-grey w3-center" style="width:90%">20%</p></div>
-      <div class="bar"><p id="myBar7" class="w3-container w3-light-grey w3-center" style="width:50%">20%</p></div>
-      <div class="bar"><p id="myBar8" class="w3-container w3-light-grey w3-center" style="width:45%">20%</p></div>
+    <div class="skills-right">
+      <div class="label">
+        <p>Oracle PL/SQL :&nbsp;</p>
+        <p>MySQL/PostgreSQL :&nbsp;</p>
+        <p>MongoDB :&nbsp;</p>
+        <br/>
+        <p>Gulp :&nbsp;</p>
+        <p>Git :&nbsp;</p>
+        <p>SVN :&nbsp;</p>
+        <p>Eclipse :&nbsp;</p>
+      </div>
+      <div class="progress-bars">
+        <div class="bar"><p id="myBar8" class="w3-container w3-light-grey" style="width:45%;">20%</p></div>
+        <div class="bar"><p id="myBar6" class="w3-container w3-light-grey" style="width:90%;">20%</p></div>
+        <div class="bar"><p id="myBar7" class="w3-container w3-light-grey" style="width:50%;">20%</p></div>
+        <br>
+        <div class="bar"><p id="myBar8" class="w3-container w3-light-grey" style="width:45%;">20%</p></div>
+        <div class="bar"><p id="myBar3" class="w3-container w3-light-grey" style="width:66%;">20%</p></div>
+        <div class="bar"><p id="myBar4" class="w3-container w3-light-grey" style="width:60%;">20%</p></div>
+        <div class="bar"><p id="myBar8" class="w3-container w3-light-grey" style="width:45%;">20%</p></div>
+      </div>
     </div>
-
   </div>
 </BODY>
