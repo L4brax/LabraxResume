@@ -7,7 +7,10 @@ body {
 #header {
   color: white;
   padding-top: 1%;
-  margin-bottom: 5%;
+  padding-bottom: 3%;
+  position: fixed;
+  background-image: url("../img/wild_oliva.png");
+  width: 100%;
 }
 
 #main-1 {
